@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./asset/LCS-trans.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="./asset/LCS-trans.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./asset/LCS-trans.png" type="image/png" sizes="48x48">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Lagos Cyber Safety</title>
+</head>
+<body class="bg-gray-800 mx-auto text-white">
+  <header class="text-white top-0">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <div class="flex gap-2 items-center">
+                <img class="w-11 mr-2" src="./asset/LCS-trans.png" alt="Brand Logo">
+                <h1 class="md:text-2xl text-lg font-bold">Lagos Cyber Safety</h1>
+            </div>
+            <div class="hidden md:flex justify-between gap-36 md:gap-6 lg:gap-24 xl:gap-72 font-bold items-center">
+                <nav class="lg:space-x-4">
+                    <a href="./index.html" class="r py-2 px-4 hover:text-white text-gray-900 bg-white hover:bg-gray-900 text-lg font-medium">Home</a>
+                    <a href="#about" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg font-medium">About</a>
+                    <a href="#services" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg font-medium">Services</a>
+                    <a href="./blog.html" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg font-medium">Blog</a>
+                </nav>
+                <a href="./contact.html" class="r bg-blue-400 hover:bg-gray-200 text-white font-bold py-2 text-lg px-4 rounded">Report</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="focus:outline-none">
+                    <svg id="menu-icon" class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="menu-overlay" class="hidden md:hidden bg-gray-700 w-1/2 fixed top-0 left-0 h-full z-40">
+        <div class="flex gap-2 items-center mt-5 m mx-20 mb-8">
+            <img class="w-11 mr-2" src="./asset/LCS-trans.png" alt="Brand Logo">
+            <h1 class="text-xl font-bold">Lagos Cyber Safety</h1>
+        </div>
+        <nav class="flex flex-col items-center py-4 space-y-4">
+            <a href="./index.html" class="r py-2 px-4 hover:text-white text-gray-900 bg-white hover:bg-gray-900 text-lg font-medium">Home</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="#about" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg md:text-base sm:text-sm font-medium">About</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="#services" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg md:text-base sm:text-sm font-medium">Services</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="./blog.html" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg md:text-base sm:text-sm font-medium">Blog</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="./contact.html" class="r bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Report</a>
+            <hr class="border-t-4 border-white w-4/5">
+        </nav>
+    </div>
+  </header>
+    <main class="md:mx-auto sm:mx-auto">
+        <div class="container mx-auto px-4 py-8">
+            <article class="max-w-4xl mx-auto bg-white text-black p-8 rounded-lg shadow-lg">
+                <hr>
+              <header class="mb-8 mt-3">
+                <h1 class="text-4xl font-bold mb-4">Reporting and Incident Support</h1>
+                <hr>
+                <div class="text-gray-700">by <span class="text-blue-600">Segio</span> on <time datetime="2024-08-1">August 1, 2024</time></div>
+                <hr>
+              </header>
+              <figure class="mb-8">
+                <img src="./asset/download.jpg" alt="Blog Post Image" class="w-full rounded-lg">
+                <!-- <figcaption class="text-gray-500 text-sm text-center mt-2">An illustrative image for the blog post</figcaption> -->
+              </figure>
+              <div class="prose lg:prose-xl">
+                <p>Cybercrime is a growing problem in Lagos, but there are ways to fight back. One of the most important steps you can take is to report any incidents of cybercrime you encounter. Reporting helps authorities track and stop cybercriminals. Here's how you can do it and get support.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">Why Report Cyber Crime?</h2>
+                <p>Reporting cybercrime is crucial. It helps law enforcement understand the problem, catch the criminals, and prevent others from becoming victims. Even if you think the crime is small, it can help build a bigger picture of the issue.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-6"> How to Report Cyber Crime in Lagos</h2>
+                <p>Don’t share personal information like your bank details, home address, or phone number on social media or with strangers online. Cybercriminals can use this information to steal your identity or money.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">How to Report Cyber Crime in Lagos</h2>
+                <p>Our website has a form where you can easily report any cybercrime incidents. Here’s a step-by-step guide on how to use it:
+                </p>
+                <div class="ml-4">
+                  <li><b>Visit the Website:</b> Go to our website and find the report form.</li>
+                  <li><b>Fill in the Details:</b> Provide as much information as possible about the incident. Include details like what happened, when it happened, and any information about the suspect.</li>
+                  <li><b>Submit the Form:</b> Once you've filled in the details, submit the form. Your report will be sent to the authorities for investigation.</li>
+                </div>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">What Happens After You Report</h2>
+                <p>After you submit your report, it will be reviewed by law enforcement officers. They may contact you for more information. Your report will help them investigate and take action against the cybercriminals.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">Getting Support</h2>
+                <p>Dealing with cybercrime can be stressful. Here are some ways to get support:
+                </p>
+                <div class="ml-4">
+                  <li><b>Talk to Someone:</b> Discuss the incident with friends or family. It can help reduce stress.</li>
+                  <li><b>Seek Professional Help:</b> If you're feeling overwhelmed, consider talking to a counselor or therapist.</li>
+                  <li><b>Stay Informed:</b> Learn more about cybercrime and how to protect yourself in the future. Knowledge is power.</li>
+                </div>
+                <h3 class="text-lg lg:text-xl font-semibold mt-2">Conclusion</h3>
+                <p>Reporting cybercrime is a vital step in fighting back against criminals. Use our website's form to report any incidents, and don’t hesitate to seek support if you need it. Together, we can make Lagos a safer place online.
+                </p>
+              </div>
+              <hr class="mb-3 mt-3">
+              <blockquote>
+                <p>Remember, your actions can make a big difference in the fight against cybercrime. Stay safe and always report suspicious activities.</p>
+              </blockquote>
+            </article>
+        </div>
+    </main>
+    <footer id="contact" class="max-w-9xl container md:container-md lg:container-lg sm:container-sm mt-25 mx-auto">      
+      <h1 class="text-3xl font-bold mb-2">Contact Us:</h1>
+      <hr class="mb-10">
+        <div class="flex items-center justify-center p-8">
+            <div class="max-w-4xl w-full bg-gray-300 shadow-md rounded-lg p-8">
+              <h2 class="text-2xl font-semibold text-black mb-6">Contact Us:</h2>
+              <form action="https://formsubmit.co/3aa1d68990c14b55c9a100d511ea22c0" method="POST">
+                <div class="mb-4">
+                  <label for="name" class="block text-sm font-medium text-black">Name</label>
+                  <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 bg-gray-500 border border-gray-100 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm">
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="block text-sm font-medium text-black">Email</label>
+                  <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 bg-gray-500 border border-gray-100 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm">
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="block text-sm font-medium text-black">Message</label>
+                  <textarea id="message" name="message" rows="3" required class="mt-1 block w-full px-3 py-2 bg-gray-500 border border-gray-100 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm"></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                  <button type="submit" class="px-4 py-2 bg-gray-500 text-white font-semibold rounded-md shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">Send</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <hr>
+        <div class=" w-full py-4">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center">
+              <span class="text-xl font-bold">©</span>
+              <span id="year" class="ml-2"></span>
+            </div>
+            <div class="flex justify-between items-center">
+              <img class="w-9" src="./asset/LCS-trans.png" alt="Brand Logo">
+              <img class="w-9" src="./asset/lg.png" alt="Brand Logo">
+            </div>
+            <div>
+              <span>All rights reserved</span>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

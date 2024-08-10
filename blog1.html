@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./asset/LCS-trans.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="./asset/LCS-trans.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./asset/LCS-trans.png" type="image/png" sizes="48x48">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Lagos Cyber Safety</title>
+</head>
+<body class="bg-gray-800 mx-auto text-white">
+  <header class="text-white top-0">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <div class="flex gap-2 items-center">
+                <img class="w-11 mr-2" src="./asset/LCS-trans.png" alt="Brand Logo">
+                <h1 class="md:text-2xl text-lg font-bold">Lagos Cyber Safety</h1>
+            </div>
+            <div class="hidden md:flex justify-between gap-36 md:gap-6 lg:gap-24 xl:gap-72 font-bold items-center">
+                <nav class="lg:space-x-4">
+                    <a href="./index.html" class="r py-2 px-4 hover:text-white text-gray-900 bg-white hover:bg-gray-900 text-lg font-medium">Home</a>
+                    <a href="#about" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg font-medium">About</a>
+                    <a href="#services" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg font-medium">Services</a>
+                    <a href="./blog.html" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg font-medium">Blog</a>
+                </nav>
+                <a href="./contact.html" class="r bg-blue-400 hover:bg-gray-200 text-white font-bold py-2 text-lg px-4 rounded">Report</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="focus:outline-none">
+                    <svg id="menu-icon" class="h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="menu-overlay" class="hidden md:hidden bg-gray-700 w-1/2 fixed top-0 left-0 h-full z-40">
+        <div class="flex gap-2 items-center mt-5 m mx-20 mb-8">
+            <img class="w-11 mr-2" src="./asset/LCS-trans.png" alt="Brand Logo">
+            <h1 class="text-xl font-bold">Lagos Cyber Safety</h1>
+        </div>
+        <nav class="flex flex-col items-center py-4 space-y-4">
+            <a href="./index.html" class="r py-2 px-4 hover:text-white text-gray-900 bg-white hover:bg-gray-900 text-lg font-medium">Home</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="#about" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg md:text-base sm:text-sm font-medium">About</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="#services" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg md:text-base sm:text-sm font-medium">Services</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="./blog.html" class="hover:text-white hover:bg-gray-500 px-3 py-2 rounded-md text-lg md:text-base sm:text-sm font-medium">Blog</a>
+            <hr class="border-t-4 border-white w-4/5">
+            <a href="./contact.html" class="r bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Report</a>
+            <hr class="border-t-4 border-white w-4/5">
+        </nav>
+    </div>
+  </header>
+    <main class="md:mx-auto sm:mx-auto">
+        <div class="container mx-auto px-4 py-8">
+            <article class="max-w-4xl mx-auto bg-white text-black p-8 rounded-lg shadow-lg">
+                <hr>
+              <header class="mb-8 mt-3">
+                <h1 class="text-4xl font-bold mb-4">Preventive Measures for Cybercrime in Lagos</h1>
+                <hr>
+                <div class="text-gray-700">by <span class="text-blue-600">Olamilekan</span> on <time datetime="2024-08-8">August 8, 2024</time></div>
+                <hr>
+              </header>
+              <figure class="mb-8">
+                <img src="./asset/images.jpg" alt="Blog Post Image" class="w-full rounded-lg">
+                <!-- <figcaption class="text-gray-500 text-sm text-center mt-2">An illustrative image for the blog post</figcaption> -->
+              </figure>
+              <div class="prose lg:prose-xl">
+                <p>Cybercrime is a big problem all over the world, and Lagos is no different. But there are ways to protect yourself and your loved ones from becoming victims. Here are some easy steps you can take to stay safe online.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">1. Use Strong Passwords</h2>
+                <p>Always use strong passwords for your online accounts. A strong password has a mix of letters, numbers, and special characters. Don’t use easy-to-guess passwords like "123456" or "password."
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4"> 2. Be Careful with Personal Information</h2>
+                <p>Don’t share personal information like your bank details, home address, or phone number on social media or with strangers online. Cybercriminals can use this information to steal your identity or money.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">3. Update Your Software</h2>
+                <p>Make sure your computer, phone, and apps are always up to date. Software updates often include security fixes that protect you from new threats.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">4. Use Antivirus Software</h2>
+                <p>Install antivirus software on your devices to protect against malware and viruses. Regularly scan your devices for threats and keep the antivirus software updated.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">5. Be Wary of Phishing Scams</h2>
+                <p>Phishing scams are fake emails or messages that look real but are designed to steal your information. Don’t click on links or download attachments from unknown sources. If something looks suspicious, delete it.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">6. Secure Your Wi-Fi</h2>
+                <p>Make sure your home Wi-Fi network is secure. Use a strong password and don’t share it with too many people. Turn off your Wi-Fi when you’re not using it.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">7. Backup Your Data</h2>
+                <p>Regularly backup your important files to an external hard drive or cloud storage. This way, if you are hacked or your device is infected with malware, you won’t lose your important data.
+                </p>
+                <h2 class="text-lg lg:text-xl font-semibold mt-4">8. Educate Yourself and Others</h2>
+                <p>Learn about the different types of cyber threats and how to avoid them. Share this knowledge with your friends and family so they can also stay safe online.
+                </p>
+                <h3 class="text-lg lg:text-xl font-semibold mt-4">Conclusion</h3>
+                <p>Staying safe online is important in today's digital world. By following these simple steps, you can protect yourself and your loved ones from cybercrime. Stay vigilant and always think before you click!
+                </p>
+              </div>
+              <hr class="mb-3 mt-3">
+              <blockquote>
+                <p>"Remember, being cautious and informed is the best way to stay safe from cybercriminals."</p>
+              </blockquote>
+            </article>
+        </div>
+    </main>
+    <footer id="contact" class="max-w-9xl container md:container-md lg:container-lg sm:container-sm mt-25 mx-auto">      
+      <h1 class="text-3xl font-bold mb-2">Contact Us:</h1>
+      <hr class="mb-10">
+        <div class="flex items-center justify-center p-8">
+            <div class="max-w-4xl w-full bg-gray-300 shadow-md rounded-lg p-8">
+              <h2 class="text-2xl font-semibold text-black mb-6">Contact Us:</h2>
+              <form action="https://formsubmit.co/3aa1d68990c14b55c9a100d511ea22c0" method="POST">
+                <div class="mb-4">
+                  <label for="name" class="block text-sm font-medium text-black">Name</label>
+                  <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 bg-gray-500 border border-gray-100 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm">
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="block text-sm font-medium text-black">Email</label>
+                  <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 bg-gray-500 border border-gray-100 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm">
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="block text-sm font-medium text-black">Message</label>
+                  <textarea id="message" name="message" rows="3" required class="mt-1 block w-full px-3 py-2 bg-gray-500 border border-gray-100 text-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm"></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                  <button type="submit" class="px-4 py-2 bg-gray-500 text-white font-semibold rounded-md shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">Send</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        <hr>
+        <div class=" w-full py-4">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center">
+              <span class="text-xl font-bold">©</span>
+              <span id="year" class="ml-2"></span>
+            </div>
+            <div class="flex justify-between items-center">
+              <img class="w-9" src="./asset/LCS-trans.png" alt="Brand Logo">
+              <img class="w-9" src="./asset/lg.png" alt="Brand Logo">
+            </div>
+            <div>
+              <span>All rights reserved</span>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
