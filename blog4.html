@@ -114,7 +114,7 @@
             </article>
         </div>
     </main>
-    <footer id="contact" class="max-w-9xl container md:container-md lg:container-lg sm:container-sm mt-25 mx-auto">      
+  <footer id="contact" class="max-w-9xl container md:container-md lg:container-lg sm:container-sm mt-25 mx-auto">      
       <h1 class="text-3xl font-bold mb-2">Contact Us:</h1>
       <hr class="mb-10">
         <div class="flex items-center justify-center p-8">
@@ -142,19 +142,26 @@
         <hr>
         <div class=" w-full py-4">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-            <div class="flex items-center">
-              <span class="text-xl font-bold">©</span>
-              <span id="year" class="ml-2"></span>
+            <div class="text-sm flex items-center font-bold">
+                  <span >©</span>
+                  <span id="year" class="ml-1"></span>
+                  <span class="ml-1">All rights reserved</span>
             </div>
-            <div class="flex justify-between items-center">
-              <img class="w-9" src="./asset/LCS-trans.png" alt="Brand Logo">
-              <img class="w-9" src="./asset/lg.png" alt="Brand Logo">
-            </div>
-            <div>
-              <span>All rights reserved</span>
+            <div class="flex justify-between items-center gap-2">
+              <img class="w-8" src="./asset/LCS-trans.png" alt="Brand Logo">
+              <img class="w-8" src="./asset/lg.png" alt="Brand Logo">
+              <a href="https://www.instagram.com/cybersafe8"><img class="w-9" src="./asset/instagram.png" alt="instagram Logo"></a>
+              <a href="https://x.com/cybersafe234"><img class="w-9 bg-white rounded" src="./asset/X.png" alt="X Logo"></a>
             </div>
           </div>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const yearSpan = document.getElementById('year');
+            const currentYear = new Date().getFullYear();
+            yearSpan.textContent = currentYear;
+        });
+    </script>
 </body>
 </html>
