@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
  // Close menu when any button in the overlay is clicked
-    const menuButtons = menuOverlay.querySelectorAll('button'); // Assuming buttons inside overlay
-    menuButtons.forEach(button => {
-        button.addEventListener('click', () => {
+    const menuButtons = menuOverlay.querySelectorAll('a'); // Assuming buttons inside overlay
+    menuButtons.forEach(a => {
+        a.addEventListener('click', () => {
             navBarOpen = false;
             menuOverlay.classList.add('hidden');
             menuIcon.innerHTML = `
